@@ -2,11 +2,11 @@
 @REM :: Configuration des variables
 set BUILD_DIR=build
 set WEBAPP_DIR=src/main/webapp
-set SERVLET_API_JAR="C:\Program Files\Apache Software Foundation\apache-tomcat-10.1.28\lib\servlet-api.jar" 
-set TOMCAT_WEBAPPS_DIR="C:\Program Files\Apache Software Foundation\apache-tomcat-10.1.28\webapps" 
+@REM set SERVLET_API_JAR="C:\Program Files\Apache Software Foundation\apache-tomcat-10.1.28\lib\servlet-api.jar" 
+@REM set TOMCAT_WEBAPPS_DIR="C:\Program Files\Apache Software Foundation\apache-tomcat-10.1.28\webapps" 
 
-@REM set SERVLET_API_JAR="C:\Program Files\Apache Software Foundation\Tomcat 10.1\lib\servlet-api.jar" 
-@REM set TOMCAT_WEBAPPS_DIR="C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps" 
+set SERVLET_API_JAR="C:\Program Files\Apache Software Foundation\Tomcat 10.1\lib\servlet-api.jar" 
+set TOMCAT_WEBAPPS_DIR="C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps" 
 
 set WAR_NAME=framework.war
 

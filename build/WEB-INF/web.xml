@@ -12,11 +12,21 @@
         <servlet-name>FrontServlet</servlet-name>
         <servlet-class>servlet.FrontServlet</servlet-class>
     </servlet>
+
+    <servlet>
+        <servlet-name>TestServlet</servlet-name>
+        <servlet-class>test.TestServlet</servlet-class>
+    </servlet>
     
 <!--   -->
     <servlet-mapping>
         <servlet-name>FrontServlet</servlet-name>
         <url-pattern>/</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>TestServlet</servlet-name>
+        <url-pattern>/test</url-pattern>
     </servlet-mapping>
 
 </web-app>
