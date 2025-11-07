@@ -7,6 +7,8 @@ import annotation.GetURL;
 public class ControllerB {
     
     @GetURL(url = "/testController")
-    public void testController () {}
+    public String testController () {
+        return "Fonction test controller";
+    }
 
 }
